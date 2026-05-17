@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@keyframes floatXP {
+  0%{
+    transform:translateY(0px);
+    opacity:0;
+  }
+
+  20%{
+    opacity:1;
+  }
+
+  100%{
+    transform:translateY(-60px);
+    opacity:0;
+  }
+}
